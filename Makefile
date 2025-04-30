@@ -28,3 +28,9 @@ release: build tag-latest push push-latest
 
 git-tag-version: release
 	git tag -a v$(VERSION) -m "v$(VERSION)"
+
+clean:
+	docker image prune -f
+
+remove:
+	docker rmi $(NAME):$(VERSION)

@@ -1,6 +1,6 @@
 {
   "name": "ilhamsj/wordpress-modern",
-  "version": "1.0.0",
+  "version": "1.0.0-dev",
   "description": "WordPress with Composer",
   "autoload": {
     "psr-4": {
