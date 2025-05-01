@@ -1,6 +1,5 @@
 {
   "name": "ilhamsj/wordpress-modern",
-  "version": "1.0.0-dev",
   "description": "WordPress with Composer",
   "autoload": {
     "psr-4": {
@@ -49,7 +48,8 @@
     }
   ],
   "require": {
-    "johnpbloch/wordpress": "*",
+    "johnpbloch/wordpress-core-installer": "^2.0",
+    "johnpbloch/wordpress-core": "^6",
     "vlucas/phpdotenv": "*",
     "wpackagist-plugin/wp-graphql": "^1.12",
     "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
