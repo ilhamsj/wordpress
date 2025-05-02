@@ -55,7 +55,8 @@
     "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
     "ilhamsj/wordpress-custom-plugin": "dev-dev",
     "ilhamsj/wordpress-custom-theme": "dev-master",
-    "wpackagist-plugin/google-sitemap-generator": "^4.1"
+    "wpackagist-plugin/google-sitemap-generator": "^4.1",
+    "wpackagist-theme/twentyseventeen": "^3.9"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*"

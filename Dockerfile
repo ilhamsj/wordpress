@@ -16,12 +16,7 @@ WORKDIR /var/www
 COPY composer.json .
 COPY composer.lock .
 
-# Use Docker BuildKit secrets instead of ARG
-RUN --mount=type=secret,id=github_token \
-    mkdir -p /root/.composer && \
-    echo '{"github-oauth": {"github.com": "'$(cat /run/secrets/github_token)'"}}' > /root/.composer/auth.json && \
-    composer install --no-dev --no-cache --prefer-dist && \
-    rm -rf /root/.composer/auth.json
+RUN composer install --no-dev --no-cache --prefer-dist
 
 # Copy application source code
 COPY . .
