@@ -24,5 +24,8 @@ COPY . .
 # Expose PHP-FPM port
 EXPOSE 9000
 
+RUN mkdir /var/log/wordpress
+RUN chown -R www-data:www-data /var/log/wordpress
+
 # Start PHP-FPM
 CMD ["php-fpm"]
