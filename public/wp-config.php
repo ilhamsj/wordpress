@@ -132,4 +132,8 @@ if (! defined('ABSPATH')) {
 }
 
 /* Sets up WordPress vars and included files. */
+
+/* Disable WP Cron */
+define('DISABLE_WP_CRON', true);
+
 require_once ABSPATH . 'wp-settings.php';
