@@ -111,6 +111,13 @@ define('WP_ENVIRONMENT_TYPE', $_ENV['WP_ENVIRONMENT_TYPE']);
 /* Add any custom values between this line and the "stop editing" line. */
 define('GRAPHQL_JWT_AUTH_SECRET_KEY', $_ENV['GRAPHQL_JWT_AUTH_SECRET_KEY']);
 
+/*
+ * Disable WP Cron
+ * need to run this command to trigger the cron job:
+ * curl -X POST http://local.wordpress.test/wordpress/wp-cron.php?doing_wp_cron
+*/
+define('DISABLE_WP_CRON', true);
+
 /* That's all, stop editing! Happy publishing. */
 
 /*
@@ -132,8 +139,5 @@ if (! defined('ABSPATH')) {
 }
 
 /* Sets up WordPress vars and included files. */
-
-/* Disable WP Cron */
-define('DISABLE_WP_CRON', true);
 
 require_once ABSPATH . 'wp-settings.php';
