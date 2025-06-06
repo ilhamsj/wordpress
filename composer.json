@@ -51,12 +51,8 @@
     "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "^6",
     "vlucas/phpdotenv": "*",
-    "wpackagist-plugin/wp-graphql": "^1.12",
-    "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
-    "ilhamsj/wordpress-custom-plugin": "dev-dev",
-    "ilhamsj/wordpress-custom-theme": "dev-master",
-    "wpackagist-plugin/google-sitemap-generator": "^4.1",
-    "wpackagist-theme/twentyseventeen": "^3.9"
+    "ilhamsj/wordpress-meilisearch": "dev-dev",
+    "ilhamsj/wordpress-custom-theme": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*"
