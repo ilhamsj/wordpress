@@ -41,13 +41,18 @@
     {
       "type": "git",
       "url": "https://github.com/ilhamsj/wordpress-custom-theme.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/ilhamsj/wordpress-meilisearch.git"
     }
   ],
   "require": {
     "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "^6",
     "vlucas/phpdotenv": "*",
-    "ilhamsj/wordpress-custom-theme": "dev-master"
+    "ilhamsj/wordpress-custom-theme": "dev-master",
+    "ilhamsj/wordpress-meilisearch": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*"
