@@ -40,10 +40,6 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/ilhamsj/wordpress-custom-plugin.git"
-    },
-    {
-      "type": "git",
       "url": "https://github.com/ilhamsj/wordpress-custom-theme.git"
     }
   ],
@@ -51,7 +47,6 @@
     "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "^6",
     "vlucas/phpdotenv": "*",
-    "ilhamsj/wordpress-meilisearch": "dev-dev",
     "ilhamsj/wordpress-custom-theme": "dev-master"
   },
   "require-dev": {
