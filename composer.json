@@ -12,10 +12,13 @@
       "email": "ilhamsaputrajati@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "config": {
     "allow-plugins": {
       "johnpbloch/wordpress-core-installer": true,
-      "composer/installers": true
+      "composer/installers": true,
+      "php-http/discovery": true
     }
   },
   "extra": {

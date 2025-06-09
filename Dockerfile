@@ -15,7 +15,7 @@ WORKDIR /var/www
 # Copy composer files first to utilize caching
 COPY composer.json .
 
-RUN composer install --no-dev --no-cache --prefer-dist
+RUN composer install
 
 # Copy application source code
 COPY . .
