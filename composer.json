@@ -40,23 +40,13 @@
     {
       "type": "git",
       "url": "https://github.com/wp-graphql/wp-graphql-jwt-authentication.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/ilhamsj/wordpress-custom-theme.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/ilhamsj/wordpress-meilisearch.git"
     }
   ],
   "require": {
     "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "^6",
     "vlucas/phpdotenv": "*",
-    "ilhamsj/wordpress-custom-theme": "dev-master",
-    "ilhamsj/wordpress-meilisearch": "dev-master",
-    "wpackagist-theme/neve": "^4.1"
+    "wpackagist-theme/twentytwentyfour": "^1.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*"
